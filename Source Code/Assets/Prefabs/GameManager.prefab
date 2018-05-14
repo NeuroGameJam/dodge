@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1289134127779764}
+  m_IsPrefabParent: 1
+--- !u!1 &1289134127779764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4294929244666286}
+  - component: {fileID: 114081169979049366}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4294929244666286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289134127779764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114081169979049366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289134127779764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e75ce627916fc45b996a7af8d7f1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rounds: []
+  m_tutorial: {fileID: 0}
+  m_keyA: {fileID: 0}
+  m_keyASprites:
+  - {fileID: 21300000, guid: a757294071a2c094588b8647e9d78aa3, type: 3}
+  - {fileID: 21300000, guid: eeffb39a21287ec428b992b51790ed93, type: 3}
+  - {fileID: 21300000, guid: eb4b32e6fcd269c45a814831101fc9b2, type: 3}
+  m_keyX: {fileID: 0}
+  m_keyXSprites:
+  - {fileID: 21300000, guid: 057156e609457bc4591d76d72de0c98c, type: 3}
+  - {fileID: 21300000, guid: 7654bc941681fcc4482e68f0c2c32e62, type: 3}
+  - {fileID: 21300000, guid: 1c3bcdc13a1863a4d9d5e9271eed3a8e, type: 3}
+  m_greenInterval: {x: 1.8, y: 2.2}
+  m_redInterval: {x: 1, y: 3}
+  m_gameStarted: 0
+  m_roundInfo: {fileID: 0}
+  m_robotPrefab: {fileID: 0}
+  m_robotsHolder: {fileID: 0}
+  bulletHolder: {fileID: 0}
